@@ -32,7 +32,6 @@ useEffect(()=>{
     <>
     <Header />
     <div>
-      <input type="text" className='anime_search' placeholder='Enter Manga Name'/>
       <div className='anime_container'>
         {MangaList.map(manga=>{
           const isInWatchlist = MangaWatchlist.some((manga1)=>manga1.mal_id === manga.mal_id)
