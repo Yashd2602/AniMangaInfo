@@ -21,7 +21,7 @@ function App() {
   element:<AnimeWatchlist />},
 {path:"/mangawatchlist",
   element:<MangaWatchlist />},
-],{basename: import.meta.env.DEV ? '/' : '/Watchlist-App'})
+],{ basename: import.meta.env.BASE_URL })
 
   return (
     <RouterProvider router={router}/>
