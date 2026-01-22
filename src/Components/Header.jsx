@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import tag from 'E:/Yash Front-End/Yash React/AniMangaInfo with Redux/AniMangaInfo/src/assets/tag.png'
-import logo from 'E:/Yash Front-End/Yash React/AniMangaInfo with Redux/AniMangaInfo/src/assets/logo.png'
+import tag from '../assets/tag.png'
+import logo from '../assets/logo.png'
 function Header(){
     return(
         <>
